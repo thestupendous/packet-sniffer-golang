@@ -131,7 +131,7 @@ func printPacketInfo(packet gopacket.Packet) {
                 idx := strings.Index(payloadString, "User-Agent")
                 idy := strings.Index(payloadString[idx:],"\n")
                 // fmt.Println("\t\tx: %T  y: %d\t++++++++++++",idx,idy,payloadString[idx:idy])
-                osString := string(payloadString[idx:idy])
+                tempStr := fmt.Sprintf("idx: %d, idy: %d\n\t%s]\n",idx,idy,payloadString[idx:idy])
 
 
 
@@ -143,7 +143,8 @@ func printPacketInfo(packet gopacket.Packet) {
                     panic(err)
                 }
                 defer f.Close()
-                if _, err = f.WriteString(textForFile); err != nil {
+                _ = textForFile
+                if _, err = f.WriteString(tempStr); err != nil {
                     panic(err)
                 }
             }

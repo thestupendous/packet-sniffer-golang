@@ -1,0 +1,1181 @@
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 142.250.193.234
+Protocol:  TCP
+
+TCP layer detected.
+From port 47582 to 80
+Sequence number:  4232105353
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 0
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55890 to 80
+Sequence number:  1507871116
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 0
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55882
+Sequence number:  2243593398
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 0
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55882 to 80
+Sequence number:  2302909569
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 0
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55882 to 80
+Sequence number:  2302909569
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+-  Payload
+Application layer/Payload found.
+
+------[GET /favicon.ico HTTP/1.1
+Host: cpp.sh
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://cpp.sh/
+
+]--------
+HTTP found!
+????????????????????????????????????????????
+	$$$$ FOUND OS HEADER $$$$$ !! !!
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55882 to 80
+Sequence number:  2302909851
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55882
+Sequence number:  2243593399
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55882
+Sequence number:  2243593399
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55888
+Sequence number:  3324061786
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55888 to 80
+Sequence number:  2566414583
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55886
+Sequence number:  192193501
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55886 to 80
+Sequence number:  2560433670
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55884
+Sequence number:  272625532
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55884 to 80
+Sequence number:  3809710449
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55890
+Sequence number:  1814698857
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55890 to 80
+Sequence number:  1507871117
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55882
+Sequence number:  2243593399
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55882 to 80
+Sequence number:  2302909852
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 142.250.193.234
+Protocol:  TCP
+
+TCP layer detected.
+From port 47582 to 80
+Sequence number:  4232105353
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 142.250.193.234 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 47582
+Sequence number:  2030595978
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 142.250.193.234
+Protocol:  TCP
+
+TCP layer detected.
+From port 47582 to 80
+Sequence number:  4232105354
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55884 to 80
+Sequence number:  3809710449
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55886 to 80
+Sequence number:  2560433670
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55888 to 80
+Sequence number:  2566414583
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55890 to 80
+Sequence number:  1507871117
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55886
+Sequence number:  192193502
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55884
+Sequence number:  272625533
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55890
+Sequence number:  1814698858
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55888
+Sequence number:  3324061787
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55884
+Sequence number:  272625533
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55888
+Sequence number:  3324061787
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55890
+Sequence number:  1814698858
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 178.32.52.110 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 55886
+Sequence number:  192193502
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55884 to 80
+Sequence number:  3809710450
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55886 to 80
+Sequence number:  2560433671
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55888 to 80
+Sequence number:  2566414584
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 178.32.52.110
+Protocol:  TCP
+
+TCP layer detected.
+From port 55890 to 80
+Sequence number:  1507871118
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49728 to 80
+Sequence number:  1309216707
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49730 to 80
+Sequence number:  4089695312
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49730
+Sequence number:  1769154289
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49730 to 80
+Sequence number:  4089695313
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49728
+Sequence number:  3106843738
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49728 to 80
+Sequence number:  1309216708
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 1
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49730 to 80
+Sequence number:  4089695313
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+-  Payload
+Application layer/Payload found.
+
+------[GET / HTTP/1.1
+Host: info.cern.ch
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://www.google.com/
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+]--------
+HTTP found!
+????????????????????????????????????????????
+	$$$$ FOUND OS HEADER $$$$$ !! !!
+********************************************** 2
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49730
+Sequence number:  1769154290
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 2
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49730
+Sequence number:  1769154290
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+-  Payload
+Application layer/Payload found.
+
+------[HTTP/1.1 200 OK
+Date: Tue, 05 Apr 2022 06:53:46 GMT
+Server: Apache
+Last-Modified: Wed, 05 Feb 2014 16:00:31 GMT
+ETag: "286-4f1aadb3105c0"
+Accept-Ranges: bytes
+Content-Length: 646
+Connection: close
+Content-Type: text/html
+
+<html><head></head><body><header>
+<title>http://info.cern.ch</title>
+</header>
+
+<h1>http://info.cern.ch - home of the first website</h1>
+<p>From here you can:</p>
+<ul>
+<li><a href="http://info.cern.ch/hypertext/WWW/TheProject.html">Browse the first website</a></li>
+<li><a href="http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html">Browse the first website using the line-mode browser simulator</a></li>
+<li><a href="http://home.web.cern.ch/topics/birth-web">Learn about the birth of the web</a></li>
+<li><a href="http://home.web.cern.ch/about">Learn about CERN, the physics laboratory where the web was born</a></li>
+</ul>
+</body></html>
+]--------
+HTTP found!
+********************************************** 2
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49730 to 80
+Sequence number:  4089695689
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 2
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49730
+Sequence number:  1769155168
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 2
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49730 to 80
+Sequence number:  4089695689
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 2
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49730
+Sequence number:  1769155169
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 2
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49728 to 80
+Sequence number:  1309216708
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+-  Payload
+Application layer/Payload found.
+
+------[GET /favicon.ico HTTP/1.1
+Host: info.cern.ch
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://info.cern.ch/
+
+]--------
+HTTP found!
+????????????????????????????????????????????
+	$$$$ FOUND OS HEADER $$$$$ !! !!
+********************************************** 3
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49728
+Sequence number:  3106843739
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 3
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49728
+Sequence number:  3106843739
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+-  Payload
+Application layer/Payload found.
+
+------[HTTP/1.1 200 OK
+Date: Tue, 05 Apr 2022 06:53:46 GMT
+Server: Apache
+Last-Modified: Fri, 18 Jan 2008 15:26:11 GMT
+ETag: "57e-44400c31d2ac0"
+Accept-Ranges: bytes
+Content-Length: 1406
+Connection: close
+Content-Type: image/vnd.microsoft.icon
+
+h( 
+
+  ��U��E����r&й��h�^åt�ã�Ͳ��d���ʯ����������]--------
+HTTP found!
+********************************************** 3
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49728 to 80
+Sequence number:  1309217002
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 3
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49728
+Sequence number:  3106845167
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+-  Payload
+Application layer/Payload found.
+
+------[
+
+
+
+
+
+
+	
+        		
+
+
+	
+		
+               	
+
+
+
+
+
+
+
+�@]--------
+********************************************** 3
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49728 to 80
+Sequence number:  1309217002
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 3
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49728
+Sequence number:  3106845393
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 3
+Ethernet layer detected.
+Source MAC:  d8:f8:83:25:e1:3f
+Destination MAC:  60:32:b1:15:70:0a
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 192.168.0.151 to 188.184.21.108
+Protocol:  TCP
+
+TCP layer detected.
+From port 49728 to 80
+Sequence number:  1309217002
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 3
+Ethernet layer detected.
+Source MAC:  60:32:b1:15:70:0a
+Destination MAC:  d8:f8:83:25:e1:3f
+Ethernet type:  IPv4
+
+IPv4 layer detected.
+From 188.184.21.108 to 192.168.0.151
+Protocol:  TCP
+
+TCP layer detected.
+From port 80 to 49728
+Sequence number:  3106845394
+
+All packet layers:
+-  Ethernet
+-  IPv4
+-  TCP
+********************************************** 3

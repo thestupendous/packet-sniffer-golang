@@ -2,24 +2,21 @@ package main
 
 import (
     "fmt"
-
+    "os"
     "github.com/umahmood/macvendors"
 )
 
 func main() {
     vendor := macvendors.New()
     var macAddress string
-    macAddress = "28:18:78:6D:64:42"
+    macAddress = os.Args[1]
+    fmt.Println("from command line args, mac address : ",macAddress)
     mac, err := vendor.Lookup(macAddress)
     if err != nil {
         //...
     }
-    fmt.Println("full response\n",mac,"  -------]")
-    fmt.Println("address : ",mac.Address)
     fmt.Println("company : ",mac.Company)
+    fmt.Println("address : ",mac.Address)
     fmt.Println("country : ",mac.Country)
     fmt.Println("type : ",mac.Type)
-    fmt.Println(mac.MacPrefix)
-    fmt.Println(mac.StartHex)
-    fmt.Println(mac.EndHex)
 }
