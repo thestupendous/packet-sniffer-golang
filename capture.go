@@ -52,6 +52,8 @@ func main() {
     }
 }
 
+
+
 func printPacketInfo(packet gopacket.Packet) {
     // Let's see if the packet is an ethernet packet
     ethernetLayer := packet.Layer(layers.LayerTypeEthernet)
@@ -123,20 +125,23 @@ func printPacketInfo(packet gopacket.Packet) {
             ethernetLayer := packet.Layer(layers.LayerTypeEthernet)
             ethernetPacket, _ := ethernetLayer.(*layers.Ethernet)
             var osString string
-            
+            srcIP2 := fmt.Sprintf("%s",ip.SrcIP)
             osString = "os info"
 
-            if _ , ok := osInfo[string(ip.SrcIP)]; !ok {
+            if _ , ok := osInfo[srcIP2]; !ok {
                 //extracting os data string from payload
                 idx := strings.Index(payloadString, "User-Agent")
                 idy := strings.Index(payloadString[idx:],"\n")
                 // fmt.Println("\t\tx: %T  y: %d\t++++++++++++",idx,idy,payloadString[idx:idy])
                 osString := string(payloadString[idx:idy])
 
-
+                srcIP := fmt.Sprintf("%s",ip.SrcIP)
+                srcMac := fmt.Sprintf("%s",ethernetPacket.SrcMAC)
+                osInfo[srcIP] = NodeInfo{srcMac,osString}
 
                 //appending found record to file
-                textForFile := fmt.Sprintf("%s > %s > %s\n",ip.SrcIP,ethernetPacket.SrcMAC,osString)
+                textForFile := fmt.Sprintf("%s > %s > %s\n",srcIP,osInfo[srcIP].Mac,osInfo[srcIP].OsString)
+                // textForFile := fmt.Sprintf("%s > %s > %s\n",ip.SrcIP,ethernetPacket.SrcMAC,osString)
                 filename := "os-info-golang.txt"
                 f, err := os.OpenFile(filename, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
                 if err != nil {
@@ -146,8 +151,12 @@ func printPacketInfo(packet gopacket.Packet) {
                 if _, err = f.WriteString(textForFile); err != nil {
                     panic(err)
                 }
+                fmt.Printf(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n")
+                for a,b := range osInfo {
+                    fmt.Printf("%s:{%s,%s}",a,b.Mac,b.OsString)
+                }
             }
-            osInfo[string(ip.SrcIP)] = NodeInfo{string(ethernetPacket.SrcMAC),osString}
+            _ = osString
             
         }
     }
