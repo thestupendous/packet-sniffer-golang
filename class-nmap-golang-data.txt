@@ -1,0 +1,47 @@
+host IP:  [192.168.0.1 98:DE:D0:98:91:CA] [_gateway]
+** host full :  {{1} {0 63785540968 0x601dc0} {All zeros 0,0,0,0,0,0} {[{open tcp 22} {closed tcp 7} {closed udp 35351}] [{Linux 2.6.17 - 2.6.36 100 48567 [{Linux 2.6.X general purpose 100 Linux [cpe:/o:linux:linux_kernel:2.6]}]}] []} {0 63785540952 0x601dc0} up {196 Good luck! CC176EDC,CC5A0831,CCED56D5,CCB25BE1,CCFEDD32,CD65BAF3} {other 1026F90,1026FAB,1026FC2,1026FDC,1026FF5,102700E} {12225 8044 100000} { 0 []} {67752 Thu Apr 14 00:30:19 2022}  [192.168.0.1 98:DE:D0:98:91:CA] [{closed 96 [{resets 96}]}] [_gateway] [] [{22 tcp  ssh open []} {80 tcp  http open []} {1900 tcp  upnp open []} {49152 tcp  unknown open []}] []}
+host finterprints : []
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:100 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+
+host IP:  [192.168.0.101 9E:F3:25:CA:40:F1] []
+** host full :  {{1} {0 63785540971 0x601dc0} { } {[{closed tcp 7} {closed udp 43162}] [] []} {0 63785540955 0x601dc0} up {0  } { } {18384 13104 100000} { 0 []} {0 }  [192.168.0.101 9E:F3:25:CA:40:F1] [{closed 100 [{resets 100}]}] [] [] [] []}
+
+host IP:  [192.168.0.102 16:19:C4:A4:FC:CF] []
+** host full :  {{1} {0 63785540971 0x601dc0} { } {[{closed tcp 7} {closed udp 36901}] [] []} {0 63785540953 0x601dc0} up {0  } { } {376849 253725 1391749} { 0 []} {0 }  [192.168.0.102 16:19:C4:A4:FC:CF] [{closed 100 [{resets 100}]}] [] [] [] []}
+
+host IP:  [192.168.0.108 F0:77:C3:21:3A:18] []
+** host full :  {{1} {0 63785540971 0x601dc0} {Incremental EF9B,EF9C,EF9D,EF9E,EF9F,EFA0} {[{open tcp 3306}] [{FreeBSD 6.2-RELEASE 93 27364 [{FreeBSD 6.X general purpose 93 FreeBSD [cpe:/o:freebsd:freebsd:6.2]}]} {Microsoft Windows 10 92 68986 [{Microsoft 10 general purpose 92 Windows [cpe:/o:microsoft:windows_10]}]} {Microsoft Windows Server 2008 or 2008 Beta 3 91 74063 [{Microsoft 2008 general purpose 91 Windows [cpe:/o:microsoft:windows_server_2008::beta3 cpe:/o:microsoft:windows_server_2008]}]} {Microsoft Windows Server 2008 SP1 87 74666 [{Microsoft 2008 general purpose 87 Windows [cpe:/o:microsoft:windows_server_2008::sp1]}]} {m0n0wall 1.3b11 - 1.3b15 (FreeBSD 6.3) 86 27047 [{FreeBSD 6.X firewall 86 FreeBSD [cpe:/o:freebsd:freebsd:6.3]}]} {Juniper Networks JUNOS 12 86 40977 [{Juniper 12.X router 86 JUNOS [cpe:/o:juniper:junos:12]}]} {Juniper Networks JUNOS 9.0R2.10 86 41246 [{Juniper 9.X router 86 JUNOS [cpe:/o:juniper:junos:9.0r2.10]}]} {Microsoft Windows 10 1703 86 69466 [{Microsoft 10 general purpose 86 Windows [cpe:/o:microsoft:windows_10:1703]}]} {Juniper SRX100-series or SRX200-series firewall (JUNOS 10.4 - 12.1) 85 40867 [{Juniper 10.X firewall 85 JUNOS [cpe:/o:juniper:junos:10]} {Juniper 12.X firewall 85 JUNOS [cpe:/o:juniper:junos:12]}]} {Netasq U70 firewall 85 87130 [{Netasq  firewall 85 embedded [cpe:/h:netasq:u70]}]}] []} {0 63785540956 0x601dc0} up {258 Good luck! 85D830A0,985EF3A7,99276A52,78610AEE,2B5D1072,EE396445} {1000HZ 5B47CF45,5B47CF92,5B47CFF6,5B47D07E,5B47D0C2,5B47D127} {53199 31241 178163} { 0 []} {1531433 Mon Mar 28 01:55:38 2022}  [192.168.0.108 F0:77:C3:21:3A:18] [{filtered 98 [{no-responses 98}]}] [] [] [{3306 tcp  mysql open []} {7070 tcp  realserver open []}] []}
+host finterprints : []
+class : Type=general purpose {Vendor:FreeBSD OSGeneration:6.X Type:general purpose Accuracy:93 Family:FreeBSD CPEs:[cpe:/o:freebsd:freebsd:6.2]}
+host finterprints : []
+class : Type=general purpose {Vendor:Microsoft OSGeneration:10 Type:general purpose Accuracy:92 Family:Windows CPEs:[cpe:/o:microsoft:windows_10]}
+os type :  0x4da1b0
+host finterprints : []
+class : Type=general purpose {Vendor:Microsoft OSGeneration:2008 Type:general purpose Accuracy:91 Family:Windows CPEs:[cpe:/o:microsoft:windows_server_2008::beta3 cpe:/o:microsoft:windows_server_2008]}
+os type :  0x4da1b0
+host finterprints : []
+class : Type=general purpose {Vendor:Microsoft OSGeneration:2008 Type:general purpose Accuracy:87 Family:Windows CPEs:[cpe:/o:microsoft:windows_server_2008::sp1]}
+os type :  0x4da1b0
+host finterprints : []
+class : Type=firewall {Vendor:FreeBSD OSGeneration:6.X Type:firewall Accuracy:86 Family:FreeBSD CPEs:[cpe:/o:freebsd:freebsd:6.3]}
+host finterprints : []
+class : Type=router {Vendor:Juniper OSGeneration:12.X Type:router Accuracy:86 Family:JUNOS CPEs:[cpe:/o:juniper:junos:12]}
+host finterprints : []
+class : Type=router {Vendor:Juniper OSGeneration:9.X Type:router Accuracy:86 Family:JUNOS CPEs:[cpe:/o:juniper:junos:9.0r2.10]}
+host finterprints : []
+class : Type=general purpose {Vendor:Microsoft OSGeneration:10 Type:general purpose Accuracy:86 Family:Windows CPEs:[cpe:/o:microsoft:windows_10:1703]}
+os type :  0x4da1b0
+host finterprints : []
+class : Type=firewall {Vendor:Juniper OSGeneration:10.X Type:firewall Accuracy:85 Family:JUNOS CPEs:[cpe:/o:juniper:junos:10]}
+host finterprints : []
+class : Type=firewall {Vendor:Juniper OSGeneration:12.X Type:firewall Accuracy:85 Family:JUNOS CPEs:[cpe:/o:juniper:junos:12]}
+host finterprints : []
+class : Type=firewall {Vendor:Netasq OSGeneration: Type:firewall Accuracy:85 Family:embedded CPEs:[cpe:/h:netasq:u70]}
+
+host IP:  [192.168.0.106] [GS-5619]
+** host full :  {{0} {0 63785540973 0x601dc0} {All zeros 0,0,0,0,0,0} {[{open tcp 22} {closed tcp 7} {closed udp 41046}] [{Linux 2.6.32 100 55543 [{Linux 2.6.X general purpose 100 Linux [cpe:/o:linux:linux_kernel:2.6.32]}]}] []} {0 63785540971 0x601dc0} up {259 Good luck! 59EB87A7,9A957CCD,397A7F9C,D0264599,9B12BA91,AF71FF20} {1000HZ 977818B7,9778191B,9778197F,977819E3,97781A47,97781AAB} {72 17 100000} { 0 []} {2541231 Wed Mar 16 09:25:42 2022}  [192.168.0.106] [{closed 96 [{resets 96}]}] [GS-5619] [] [{22 tcp  ssh open []} {139 tcp  netbios-ssn open []} {445 tcp  microsoft-ds open []} {3000 tcp  ppp open []}] []}
+host finterprints : []
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:100 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.32]}
+
+Discovered 2 linux hosts and 4 windows hosts out of 5 total up hosts.
+

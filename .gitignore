@@ -1,2 +1,3 @@
 vendor/
 os-info-golang.txt
+del*
