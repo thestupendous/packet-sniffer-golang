@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"log"
 
@@ -46,9 +45,15 @@ func main() {
 	// nmap -F -O 192.168.0.0/24
 
 	hosts = make([]Host, 0)
+	fmt.Printf("Enter scan target(s): ")
+	var targetString string
+	fmt.Scanf("%s", &targetString)
+	if len(targetString) < 4 {
+		targetString = "192.168.0.0/24"
+	}
 
 	scanner, err := nmap.NewScanner(
-		nmap.WithTargets("192.168.31.0/24"),
+		nmap.WithTargets(targetString),
 		nmap.WithFastMode(),
 		nmap.WithOSDetection(),
 	)
@@ -62,6 +67,14 @@ func main() {
 	}
 
 	countByOS(result)
+
+	for _, host := range hosts {
+		fmt.Println(host.Ip, host.MacVendor, " :")
+		for _, match := range host.Matches {
+			fmt.Println("Match:  ", match.Name)
+		}
+	}
+
 }
 
 func countByOS(result *nmap.Run) {
@@ -133,15 +146,10 @@ func countByOS(result *nmap.Run) {
 		fmt.Println()
 		hosts = append(hosts, hostStruct)
 	}
-	//	fmt.Println(hosts)
-	//	outStr, err := json.Marshal(hosts)
-	//	if err != nil {
-	//		fmt.Println(err)
-	//	}
-	//	fmt.Println(string(outStr))
-	prettyHosts, _ := json.MarshalIndent(hosts, "", "   ")
-	fmt.Println(string(prettyHosts))
+	//printing whole hosts struct list
+	//prettyHosts, _ := json.MarshalIndent(hosts, "", "   ")
+	//fmt.Println(string(prettyHosts))
 
 	fmt.Printf("Discovered %d linux hosts and %d windows hosts out of %d total up hosts.\n", linux, windows, result.Stats.Hosts.Up)
-	fmt.Println("total no of hosts %d, matches %d, classes %d", len(hosts), matchCounter, classCounter)
+	fmt.Printf("total no of hosts %d, matches %d, classes %d", len(hosts), matchCounter, classCounter)
 }
