@@ -1,0 +1,1053 @@
+            ]
+         },
+         {
+            "Name": "Linux 3.2 - 4.9",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               },
+               {
+                  "Os": "LinuxLinux4.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.13",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.13 or 4.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               },
+               {
+                  "Os": "LinuxLinux4.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.16 - 4.6",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               },
+               {
+                  "Os": "LinuxLinux4.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Linux 4.10",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux4.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Linux 4.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux4.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Linux 4.4",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux4.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.181",
+      "Mac": "98:FA:9B:5D:42:FD",
+      "MacVendor": "Lcfc(hefei) Electronics Technology",
+      "Matches": [
+         {
+            "Name": "Linux 2.6.32",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.1",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "AXIS 210A or 211 Network Camera (Linux 2.6.17)",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "webcam",
+                  "Accuracy": 94
+               },
+               {
+                  "Os": "AXISembedded",
+                  "DeviceType": "webcam",
+                  "Accuracy": 94
+               }
+            ]
+         },
+         {
+            "Name": "ASUS RT-N56U WAP (Linux 3.4)",
+            "Classes": [
+               {
+                  "Os": "Asusembedded",
+                  "DeviceType": "WAP",
+                  "Accuracy": 93
+               },
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "WAP",
+                  "Accuracy": 93
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.16",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 93
+               }
+            ]
+         },
+         {
+            "Name": "Linux 2.6.39 - 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               },
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.1 - 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.11",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.2 - 4.9",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               },
+               {
+                  "Os": "LinuxLinux4.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.185",
+      "Mac": "00:0C:29:37:00:C9",
+      "MacVendor": "VMware",
+      "Matches": []
+   },
+   {
+      "Ip": "192.168.31.192",
+      "Mac": "00:0C:29:0C:39:41",
+      "MacVendor": "VMware",
+      "Matches": []
+   },
+   {
+      "Ip": "192.168.31.195",
+      "Mac": "00:0C:29:8E:F1:D1",
+      "MacVendor": "VMware",
+      "Matches": [
+         {
+            "Name": "Microsoft Windows Server 2012",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2012",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Vista SP1",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindowsVista",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2012 or Server 2012 R2",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2012",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2012 R2",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2012",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2016",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2016",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows 10 1703",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows10",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Longhorn",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindowsLonghorn",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 89
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2008 R2",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2008",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 89
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2012 R2 Update 1",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2012",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 88
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2016 build 10586 - 14393",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2016",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 88
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.200",
+      "Mac": "00:0C:29:B0:23:C5",
+      "MacVendor": "VMware",
+      "Matches": [
+         {
+            "Name": "Microsoft Windows Server 2016",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2016",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2012 R2",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2012",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2016 build 10586 - 14393",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2016",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 94
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows 10",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows10",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 93
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2012 or Server 2012 R2",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2012",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 93
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows 10 1507",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows10",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows 10 1507 - 1607",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows10",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2012",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2012",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows Server 2012 R2 Update 1",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows2012",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               }
+            ]
+         },
+         {
+            "Name": "Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1",
+            "Classes": [
+               {
+                  "Os": "MicrosoftWindows7",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               },
+               {
+                  "Os": "MicrosoftWindows2012",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               },
+               {
+                  "Os": "MicrosoftWindows8.1",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.214",
+      "Mac": "00:0C:29:67:88:B7",
+      "MacVendor": "VMware",
+      "Matches": []
+   },
+   {
+      "Ip": "192.168.31.215",
+      "Mac": "00:0C:29:13:49:7C",
+      "MacVendor": "VMware",
+      "Matches": [
+         {
+            "Name": "Linux 2.6.32",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 91
+               }
+            ]
+         },
+         {
+            "Name": "Crestron XPanel control system",
+            "Classes": [
+               {
+                  "Os": "Crestron2-Series",
+                  "DeviceType": "specialized",
+                  "Accuracy": 90
+               }
+            ]
+         },
+         {
+            "Name": "ASUS RT-N56U WAP (Linux 3.4)",
+            "Classes": [
+               {
+                  "Os": "Asusembedded",
+                  "DeviceType": "WAP",
+                  "Accuracy": 87
+               },
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "WAP",
+                  "Accuracy": 87
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.1",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 87
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.16",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 87
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 87
+               }
+            ]
+         },
+         {
+            "Name": "HP P2000 G3 NAS device",
+            "Classes": [
+               {
+                  "Os": "HPembedded",
+                  "DeviceType": "storage-misc",
+                  "Accuracy": 87
+               }
+            ]
+         },
+         {
+            "Name": "AXIS 210A or 211 Network Camera (Linux 2.6.17)",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "webcam",
+                  "Accuracy": 87
+               },
+               {
+                  "Os": "AXISembedded",
+                  "DeviceType": "webcam",
+                  "Accuracy": 87
+               }
+            ]
+         },
+         {
+            "Name": "Linux 2.6.39 - 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 86
+               },
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 86
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.1 - 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 86
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.243",
+      "Mac": "00:45:1D:85:28:85",
+      "MacVendor": "Cisco Systems",
+      "Matches": [
+         {
+            "Name": "Sun Solaris 9",
+            "Classes": [
+               {
+                  "Os": "SunSolaris9",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 88
+               }
+            ]
+         },
+         {
+            "Name": "Netgear WGR614v7 wireless broadband router",
+            "Classes": [
+               {
+                  "Os": "Netgearembedded",
+                  "DeviceType": "WAP",
+                  "Accuracy": 87
+               }
+            ]
+         },
+         {
+            "Name": "Sun Solaris 10",
+            "Classes": [
+               {
+                  "Os": "SunSolaris10",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 85
+               }
+            ]
+         },
+         {
+            "Name": "Sun Solaris 9 or 10 (SPARC)",
+            "Classes": [
+               {
+                  "Os": "SunSolaris9",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 85
+               },
+               {
+                  "Os": "SunSolaris10",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 85
+               }
+            ]
+         },
+         {
+            "Name": "HP PSC 2400-series Photosmart printer",
+            "Classes": [
+               {
+                  "Os": "HPembedded",
+                  "DeviceType": "printer",
+                  "Accuracy": 85
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.245",
+      "Mac": "C6:68:23:6C:8C:7A",
+      "MacVendor": "",
+      "Matches": [
+         {
+            "Name": "Linux 3.1",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "AXIS 210A or 211 Network Camera (Linux 2.6.17)",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "webcam",
+                  "Accuracy": 94
+               },
+               {
+                  "Os": "AXISembedded",
+                  "DeviceType": "webcam",
+                  "Accuracy": 94
+               }
+            ]
+         },
+         {
+            "Name": "Linux 2.6.32",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 94
+               }
+            ]
+         },
+         {
+            "Name": "ASUS RT-N56U WAP (Linux 3.4)",
+            "Classes": [
+               {
+                  "Os": "Asusembedded",
+                  "DeviceType": "WAP",
+                  "Accuracy": 93
+               },
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "WAP",
+                  "Accuracy": 93
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.16",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 93
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.11",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.2 - 4.9",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               },
+               {
+                  "Os": "LinuxLinux4.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.7 - 3.10",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         },
+         {
+            "Name": "QNAP QTS 4.0 - 4.2",
+            "Classes": [
+               {
+                  "Os": "QNAPQTS4.X",
+                  "DeviceType": "storage-misc",
+                  "Accuracy": 92
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.249",
+      "Mac": "00:22:4D:B2:0F:2D",
+      "MacVendor": "Mitac International",
+      "Matches": [
+         {
+            "Name": "Linux 2.6.32",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.1",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 95
+               }
+            ]
+         },
+         {
+            "Name": "AXIS 210A or 211 Network Camera (Linux 2.6.17)",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "webcam",
+                  "Accuracy": 94
+               },
+               {
+                  "Os": "AXISembedded",
+                  "DeviceType": "webcam",
+                  "Accuracy": 94
+               }
+            ]
+         },
+         {
+            "Name": "ASUS RT-N56U WAP (Linux 3.4)",
+            "Classes": [
+               {
+                  "Os": "Asusembedded",
+                  "DeviceType": "WAP",
+                  "Accuracy": 93
+               },
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "WAP",
+                  "Accuracy": 93
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.16",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 93
+               }
+            ]
+         },
+         {
+            "Name": "Linux 2.6.39 - 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               },
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.1 - 3.2",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.2 - 4.9",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               },
+               {
+                  "Os": "LinuxLinux4.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         },
+         {
+            "Name": "Linux 3.7 - 3.10",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux3.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 92
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.250",
+      "Mac": "04:6C:9D:CD:D3:D7",
+      "MacVendor": "Cisco Systems",
+      "Matches": [
+         {
+            "Name": "Cisco SF300 or SG300 switch",
+            "Classes": [
+               {
+                  "Os": "Ciscoembedded",
+                  "DeviceType": "switch",
+                  "Accuracy": 100
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.254",
+      "Mac": "B0:7D:47:54:18:6F",
+      "MacVendor": "Cisco Systems",
+      "Matches": [
+         {
+            "Name": "Cisco 1841 router (IOS 12)",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS12.X",
+                  "DeviceType": "router",
+                  "Accuracy": 98
+               }
+            ]
+         },
+         {
+            "Name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS12.X",
+                  "DeviceType": "router",
+                  "Accuracy": 98
+               },
+               {
+                  "Os": "CiscoIOS15.X",
+                  "DeviceType": "router",
+                  "Accuracy": 98
+               }
+            ]
+         },
+         {
+            "Name": "Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS12.X",
+                  "DeviceType": "WAP",
+                  "Accuracy": 98
+               },
+               {
+                  "Os": "CiscoIOS15.X",
+                  "DeviceType": "WAP",
+                  "Accuracy": 98
+               }
+            ]
+         },
+         {
+            "Name": "Cisco Aironet 2600-series WAP (IOS 15.2(2))",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS15.X",
+                  "DeviceType": "WAP",
+                  "Accuracy": 98
+               }
+            ]
+         },
+         {
+            "Name": "Cisco 877 router (IOS 12.4)",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS12.X",
+                  "DeviceType": "router",
+                  "Accuracy": 98
+               }
+            ]
+         },
+         {
+            "Name": "Cisco 1841 router (IOS 12.4)",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS12.X",
+                  "DeviceType": "router",
+                  "Accuracy": 97
+               }
+            ]
+         },
+         {
+            "Name": "Cisco IOS 12.4 or IOS-XE 15.3",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS12.X",
+                  "DeviceType": "router",
+                  "Accuracy": 97
+               },
+               {
+                  "Os": "CiscoIOS-XE15.X",
+                  "DeviceType": "router",
+                  "Accuracy": 97
+               }
+            ]
+         },
+         {
+            "Name": "Cisco 860 or 870 router (IOS 12.4)",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS12.X",
+                  "DeviceType": "router",
+                  "Accuracy": 97
+               }
+            ]
+         },
+         {
+            "Name": "Cisco IOS 15",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS15.X",
+                  "DeviceType": "router",
+                  "Accuracy": 96
+               }
+            ]
+         },
+         {
+            "Name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+            "Classes": [
+               {
+                  "Os": "CiscoIOS12.X",
+                  "DeviceType": "router",
+                  "Accuracy": 96
+               },
+               {
+                  "Os": "CiscoIOS15.X",
+                  "DeviceType": "router",
+                  "Accuracy": 96
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Ip": "192.168.31.144",
+      "Mac": "",
+      "MacVendor": "",
+      "Matches": [
+         {
+            "Name": "Linux 2.6.32",
+            "Classes": [
+               {
+                  "Os": "LinuxLinux2.6.X",
+                  "DeviceType": "general purpose",
+                  "Accuracy": 100
+               }
+            ]
+         }
+      ]
+   }
+]

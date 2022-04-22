@@ -1,0 +1,101 @@
+host IP:  172.22.22.1 ipv4 mac manufacturer:  []
+host IP:  14:18:77:6D:65:6D mac mac manufacturer: Dell []
+class : Type=specialized {Vendor:VMware OSGeneration:6.X Type:specialized Accuracy:97 Family:ESXi CPEs:[cpe:/o:vmware:esxi:6.0.0]}
+class : Type=specialized {Vendor:VMware OSGeneration:5.X Type:specialized Accuracy:96 Family:ESXi CPEs:[cpe:/o:vmware:esxi:5]}
+class : Type=specialized {Vendor:VMware OSGeneration:5.X Type:specialized Accuracy:94 Family:ESXi CPEs:[cpe:/o:vmware:esxi:5.5]}
+class : Type=specialized {Vendor:VMware OSGeneration:4.X Type:specialized Accuracy:92 Family:ESXi CPEs:[cpe:/o:vmware:esxi:4.1]}
+class : Type=specialized {Vendor:Crestron OSGeneration: Type:specialized Accuracy:92 Family:2-Series CPEs:[cpe:/o:crestron:2_series]}
+class : Type=general purpose {Vendor:FreeBSD OSGeneration:7.X Type:general purpose Accuracy:91 Family:FreeBSD CPEs:[cpe:/o:freebsd:freebsd:7]}
+class : Type=general purpose {Vendor:FreeBSD OSGeneration:8.X Type:general purpose Accuracy:91 Family:FreeBSD CPEs:[cpe:/o:freebsd:freebsd:8]}
+class : Type=general purpose {Vendor:FreeBSD OSGeneration:9.X Type:general purpose Accuracy:91 Family:FreeBSD CPEs:[cpe:/o:freebsd:freebsd:9]}
+class : Type=general purpose {Vendor:FreeBSD OSGeneration:10.X Type:general purpose Accuracy:91 Family:FreeBSD CPEs:[cpe:/o:freebsd:freebsd:10]}
+class : Type=general purpose {Vendor:FreeBSD OSGeneration:5.X Type:general purpose Accuracy:90 Family:FreeBSD CPEs:[cpe:/o:freebsd:freebsd:5]}
+class : Type=general purpose {Vendor:FreeBSD OSGeneration:8.X Type:general purpose Accuracy:90 Family:FreeBSD CPEs:[cpe:/o:freebsd:freebsd:8.0]}
+class : Type=storage-misc {Vendor:FreeNAS OSGeneration:0.X Type:storage-misc Accuracy:90 Family:FreeNAS CPEs:[cpe:/o:freenas:freenas:0.686]}
+class : Type=storage-misc {Vendor:FreeBSD OSGeneration:6.X Type:storage-misc Accuracy:90 Family:FreeBSD CPEs:[cpe:/o:freebsd:freebsd:6.2]}
+class : Type=specialized {Vendor:VMware OSGeneration:3.X Type:specialized Accuracy:90 Family:ESX Server CPEs:[cpe:/o:vmware:esx:3]}
+class : Type=specialized {Vendor:VMware OSGeneration:4.X Type:specialized Accuracy:90 Family:ESX Server CPEs:[cpe:/o:vmware:esx:4]}
+class : Type=specialized {Vendor:VMware OSGeneration:4.X Type:specialized Accuracy:90 Family:ESX Server CPEs:[cpe:/o:vmware:esx:4.0:1]}
+
+host IP:  172.22.22.104 ipv4 mac manufacturer:  []
+host IP:  00:0C:29:BA:94:32 mac mac manufacturer: VMware []
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:100 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:4.X Type:general purpose Accuracy:100 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:4]}
+
+host IP:  172.22.22.170 ipv4 mac manufacturer:  []
+host IP:  00:0C:29:60:84:08 mac mac manufacturer: VMware []
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.32]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:4.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:4]}
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=storage-misc {Vendor:Synology OSGeneration:5.X Type:storage-misc Accuracy:95 Family:DiskStation Manager CPEs:[cpe:/a:synology:diskstation_manager:5.2]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3.1]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3.2]}
+class : Type=webcam {Vendor:Linux OSGeneration:2.6.X Type:webcam Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.17]}
+class : Type=webcam {Vendor:AXIS OSGeneration: Type:webcam Accuracy:94 Family:embedded CPEs:[cpe:/h:axis:210a_network_camera cpe:/h:axis:211_network_camera]}
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+
+host IP:  172.22.22.177 ipv4 mac manufacturer:  []
+host IP:  00:0C:29:CE:76:F5 mac mac manufacturer: VMware []
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.32]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:4.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:4]}
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3.1]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3.2]}
+class : Type=webcam {Vendor:Linux OSGeneration:2.6.X Type:webcam Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.17]}
+class : Type=webcam {Vendor:AXIS OSGeneration: Type:webcam Accuracy:94 Family:embedded CPEs:[cpe:/h:axis:210a_network_camera cpe:/h:axis:211_network_camera]}
+class : Type=storage-misc {Vendor:Synology OSGeneration:5.X Type:storage-misc Accuracy:94 Family:DiskStation Manager CPEs:[cpe:/a:synology:diskstation_manager:5.2]}
+class : Type=storage-misc {Vendor:Netgear OSGeneration:4.X Type:storage-misc Accuracy:94 Family:RAIDiator CPEs:[cpe:/o:netgear:raidiator:4.2.28]}
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+
+host IP:  172.22.22.249 ipv4 mac manufacturer:  []
+host IP:  00:22:4D:B2:0F:2D mac mac manufacturer: Mitac International []
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.32]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:4.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:4]}
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3.1]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3.2]}
+class : Type=webcam {Vendor:Linux OSGeneration:2.6.X Type:webcam Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.17]}
+class : Type=webcam {Vendor:AXIS OSGeneration: Type:webcam Accuracy:94 Family:embedded CPEs:[cpe:/h:axis:210a_network_camera cpe:/h:axis:211_network_camera]}
+class : Type=storage-misc {Vendor:Synology OSGeneration:5.X Type:storage-misc Accuracy:94 Family:DiskStation Manager CPEs:[cpe:/a:synology:diskstation_manager:5.2]}
+class : Type=storage-misc {Vendor:Netgear OSGeneration:4.X Type:storage-misc Accuracy:94 Family:RAIDiator CPEs:[cpe:/o:netgear:raidiator:4.2.28]}
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+
+host IP:  172.22.22.251 ipv4 mac manufacturer:  []
+host IP:  3E:D8:8B:89:6E:61 mac mac manufacturer:  []
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.32]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:4.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:4]}
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:96 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3.1]}
+class : Type=general purpose {Vendor:Linux OSGeneration:3.X Type:general purpose Accuracy:95 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:3.2]}
+class : Type=webcam {Vendor:Linux OSGeneration:2.6.X Type:webcam Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.17]}
+class : Type=webcam {Vendor:AXIS OSGeneration: Type:webcam Accuracy:94 Family:embedded CPEs:[cpe:/h:axis:210a_network_camera cpe:/h:axis:211_network_camera]}
+class : Type=storage-misc {Vendor:Synology OSGeneration:5.X Type:storage-misc Accuracy:94 Family:DiskStation Manager CPEs:[cpe:/a:synology:diskstation_manager:5.2]}
+class : Type=storage-misc {Vendor:Netgear OSGeneration:4.X Type:storage-misc Accuracy:94 Family:RAIDiator CPEs:[cpe:/o:netgear:raidiator:4.2.28]}
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:94 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6]}
+
+host IP:  172.22.22.254 ipv4 mac manufacturer:  [_gateway]
+host IP:  B0:7D:47:54:18:69 mac mac manufacturer: Cisco Systems [_gateway]
+class : Type=router {Vendor:Cisco OSGeneration:12.X Type:router Accuracy:100 Family:IOS CPEs:[cpe:/h:cisco:836_router cpe:/h:cisco:890_router cpe:/h:cisco:1751_router cpe:/h:cisco:2800_router cpe:/o:cisco:ios:12]}
+class : Type=router {Vendor:Cisco OSGeneration:15.X Type:router Accuracy:100 Family:IOS CPEs:[cpe:/h:cisco:1841_router cpe:/h:cisco:2900_router cpe:/o:cisco:ios:15]}
+class : Type=WAP {Vendor:Cisco OSGeneration:12.X Type:WAP Accuracy:100 Family:IOS CPEs:[cpe:/o:cisco:ios:12.4]}
+class : Type=WAP {Vendor:Cisco OSGeneration:15.X Type:WAP Accuracy:100 Family:IOS CPEs:[cpe:/h:cisco:aironet_1141n cpe:/h:cisco:aironet_3602i cpe:/o:cisco:ios:12.4 cpe:/o:cisco:ios:15.3]}
+class : Type=WAP {Vendor:Cisco OSGeneration:15.X Type:WAP Accuracy:100 Family:IOS CPEs:[cpe:/o:cisco:ios:15.2]}
+
+host IP:  172.22.22.129 ipv4 mac manufacturer:  [GS-5619]
+class : Type=general purpose {Vendor:Linux OSGeneration:2.6.X Type:general purpose Accuracy:100 Family:Linux CPEs:[cpe:/o:linux:linux_kernel:2.6.32]}
+
+Discovered 45 linux hosts and 0 windows hosts out of 8 total up hosts.

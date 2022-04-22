@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 
@@ -16,13 +17,13 @@ type Host struct {
 }
 
 type Match struct {
-	Accuracy int
-	Classes  []Class
+	Name    string
+	Classes []Class
 }
 
 type Class struct {
-	//{"vendor":"Cisco","os_generation":"15.X","type":"WAP","accuracy":100,"os_family":"IOS",
-	//"cpes":["cpe:/h:cisco:aironet_1141n","cpe:/h:cisco:aironet_3602i","cpe:/o:cisco:ios:12.4","cpe:/o:cisco:ios:15.3"]}
+	//{Vendor:Microsoft OSGeneration:2016 Type:general purpose Accuracy:96 Family:Windows
+	//CPEs:[cpe:/o:microsoft:windows_server_2016]}
 	Os         string //cat of Vendor+family+generation
 	DeviceType string
 	Accuracy   int
@@ -64,6 +65,7 @@ func main() {
 }
 
 func countByOS(result *nmap.Run) {
+	matchCounter, classCounter := 0, 0
 	var (
 		linux, windows int
 	)
@@ -73,6 +75,9 @@ func countByOS(result *nmap.Run) {
 	i := 0
 	var k int
 	for _, host := range result.Hosts {
+		hostStruct := Host{}
+		hostStruct.Init()
+
 		k = 0 //only iterating two times over []addresses
 		//once for ip and mac each
 		for _, address := range host.Addresses {
@@ -80,45 +85,63 @@ func countByOS(result *nmap.Run) {
 				break
 			}
 			k++
-			fmt.Println("host IP: ", address.Addr, address.AddrType, "mac manufacturer:", address.Vendor, host.Hostnames)
+			//0			fmt.Println("host IP: ", address.Addr, address.AddrType, "mac manufacturer:", address.Vendor, host.Hostnames)
+			if k == 1 { //IP address
+				hostStruct.Ip = address.Addr
+			} else if k == 2 { //MAC address
+				hostStruct.Mac = address.Addr
+				hostStruct.MacVendor = address.Vendor
+			}
 
 		}
-		//fmt.Println("** host full : ",host)
+
+		//adding matches to host record - working on []Match of host
 		i = 1
 		for _, match := range host.OS.Matches {
-			fmt.Printf("Match no %d - name: [%d] - Accuracy: [%d]\n", i, match.Name)
+			matchCounter++
+			matchStruct := Match{}
+			matchStruct.Init()
+			//0			fmt.Printf("Match no %d - name: [%d] - Accuracy: [%d]\n", i, match.Name)
+			matchStruct.Name = match.Name
+
+			//adding classes to matches - working on []Class of Match
 			j := 1
 			for _, class := range match.Classes {
-				// fmt.Println("host os : ",host.OS)			//print all data regarding os fingerprint
-				// fmt.Println("host :",host.OS.Matches)
-				//fmt.Println("host finterprints :",host.OS.Fingerprints)	//print os fingerprints
-				fmt.Printf("  class %d : Type=%v %+v\n", j, class.Type, class)
-				//				data, err := json.Marshal(class)
-				//				if err != nil {
-				//					fmt.Println(err)
-				//				}
-				//				fmt.Println("*****JSON**********")
-				//				fmt.Println(string(data))
-				//				var out map[string]interface{}
-				//				json.Unmarshal(data, &out)
-				//				fmt.Println("#####MAP###############")
-				//				fmt.Println(out)
-				//				fmt.Println("Acurracy", out["accuracy"])
+				classCounter++
+				classStruct := Class{}
+				//0				fmt.Printf("  class %d : Type=%v %+v\n", j, class.Type, class)
+				classStruct.Os = class.Vendor + class.Family + class.OSGeneration
+				classStruct.DeviceType = class.Type
+				classStruct.Accuracy = class.Accuracy
+
 				switch class.OSFamily() {
 				case osfamily.Linux:
 					linux++
-					// osType = "linux"
 				case osfamily.Windows:
 					windows++
-					// osType = "Windows"
-					fmt.Println("os type : ", class.OSFamily)
+					//0					fmt.Println("os type : ", class.OSFamily)
+
 				}
+
+				matchStruct.Classes = append(matchStruct.Classes, classStruct)
 				j++
 			}
+
+			hostStruct.Matches = append(hostStruct.Matches, matchStruct)
 			i++
 		}
 		fmt.Println()
+		hosts = append(hosts, hostStruct)
 	}
+	//	fmt.Println(hosts)
+	//	outStr, err := json.Marshal(hosts)
+	//	if err != nil {
+	//		fmt.Println(err)
+	//	}
+	//	fmt.Println(string(outStr))
+	prettyHosts, _ := json.MarshalIndent(hosts, "", "   ")
+	fmt.Println(string(prettyHosts))
 
 	fmt.Printf("Discovered %d linux hosts and %d windows hosts out of %d total up hosts.\n", linux, windows, result.Stats.Hosts.Up)
+	fmt.Println("total no of hosts %d, matches %d, classes %d", len(hosts), matchCounter, classCounter)
 }
