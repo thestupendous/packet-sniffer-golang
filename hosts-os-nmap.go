@@ -1,31 +1,36 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"log"
+	"time"
+
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
 
 	"github.com/Ullaakut/nmap/v2"
 	osfamily "github.com/Ullaakut/nmap/v2/pkg/osfamilies"
 )
 
 type Host struct {
-	Ip        string
-	Mac       string
-	MacVendor string
-	Matches   []Match
+	Ip        string  `json:"ip" bson:"ip" bson:"ip"`
+	Mac       string  `json:"mac" bson:"mac" bson:"mac"`
+	MacVendor string  `json:"mac-vendor" bson:"mac_vendor"`
+	Matches   []Match `json:"matches" bson:"matches"`
 }
 
 type Match struct {
-	Name    string
-	Classes []Class
+	Name    string  `json:"match-name" bson:"match_name"`
+	Classes []Class `json:"match-class" bson:"match_class"`
 }
 
 type Class struct {
 	//{Vendor:Microsoft OSGeneration:2016 Type:general purpose Accuracy:96 Family:Windows
 	//CPEs:[cpe:/o:microsoft:windows_server_2016]}
-	Os         string //cat of Vendor+family+generation
-	DeviceType string
-	Accuracy   int
+	Os         string `json:"class-os" bson:"class_os"` //cat of Vendor+family+generation
+	DeviceType string `json:"device-type" bson:"device_type"`
+	Accuracy   int    `json:"accuracy" bson:"accuracy"`
 }
 
 func (h *Host) Init() {
@@ -74,6 +79,39 @@ func main() {
 			fmt.Println("Match:  ", match.Name)
 		}
 	}
+
+	//dumping to mongodb
+	fmt.Println("\tNow Storing to db")
+	//connecting to mongo
+	ctx, cancel := context.WithTimeout(context.Background(), 20*time.Second)
+	defer cancel()
+	client, err := mongo.Connect(ctx, options.Client().ApplyURI("mongodb://localhost:27017"))
+	if err != nil {
+		fmt.Println("\t!!MONGO CONNECTION ERROR", err)
+	}
+	collection := client.Database("hosts_discovery").Collection("nmap_results")
+	for i, _ := range hosts {
+		result, err := collection.InsertOne(context.TODO(), hosts[i])
+		if err != nil {
+			panic(err)
+		}
+		fmt.Println("inserted one : ", result.InsertedID)
+	}
+	//
+	//	out, err := json.Marshal(hosts)
+	//	if err != nil {
+	//		fmt.Println("\t!!MARSHAL ERROR", err)
+	//	}
+
+	//	var hostsMap map[string]interface{}
+
+	//	json.Unmarshal(out, &hostsMap)
+	//	res, err := collection.InserMany(context.Background(), hostsMap)
+	//	if err != nil {
+	//		fmt.Println("\t!!INSERT ERROR", err)
+	//	}
+	//	_ = res
+	//	fmt.Println(res)
 
 }
 
